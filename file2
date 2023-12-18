@@ -1,0 +1,27 @@
+# Stings are immutable
+a = "preet"
+b = "LAMBA"
+c = "apple !!!!!!!!! banana"
+print(len(a))
+print(a.upper())
+print(b.lower())
+print(c.rstrip("!"))
+print(c.replace("apple", "chiku"))
+print(c.split(" "))
+Heading = "intoduction to python"
+print(Heading.capitalize())
+print(len(a.center(50)))
+print(a.center(10))
+print(a.count("e"))
+st1 = "These are the python topic. So, He is good in python."
+print(st1.find("is"))
+print(st1.index("good"))
+str2 = "WelcomeToConsole1"
+print(str2.isalnum())
+print(str2.isalpha())
+print(a.islower())
+print(a.isprintable())
+abc = "    "
+print(abc.isspace())
+bcd = "We Are Good"
+print(bcd.istitle())
